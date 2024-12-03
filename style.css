@@ -9,4 +9,55 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+header {
+  padding: 64px 0;
+}
+
+.intro-chunk {
+  width: 800px;
+  max-width: 100%;
+  padding: 0 24px;
+  margin-inline-end: auto;
+  margin-inline-start: auto;
+}
+
+header .title {
+  margin-bottom: 48px;
+}
+
+header p {
+  margin-top: 24px;
+}
+
+strong {
+  color: #7d9722;
+}
+
+main {
+  padding: 64px 0;
+  background: darkslategrey;
+  border-top: 8px solid cadetblue;
+}
+
+.card {
+  width: 800px;
+  max-width: fit-content;
+  padding: 4px 24px 16px;
+  background: aqua;
+  border-bottom: 8px solid darkcyan;
+  margin-inline-end: auto;
+  margin-inline-start: auto;
+}
+
+.indented-heading {
+  max-width: fit-content;
+  background: goldenrod;
+  padding: 16px 28px;
+  margin-inline-start: -32px;
+  margin-block-start: 4px;
+  border-bottom: 8px solid darkgoldenrod;
+}
+
+p {
+  font-size: 1.25rem;
+}
